@@ -5,13 +5,13 @@ var score = 0
 var gameover, gameoverImg
 var yes,no
 function preload() {
-  bikeImg = loadImage("imgs/bike1.png")
-  bgImg = loadImage("imgs/bg.jpg")
-  stone = loadImage("imgs/stone.png")
-  box = loadImage("imgs/box.png")
-  laser = loadAnimation("imgs/laser1.png", "imgs/laser2.png", "imgs/laser3.png", "imgs/laser4.png", "imgs/laser5.png", "imgs/laser6.png")
-  rocketanimation = loadAnimation("imgs/rocket1.png", "imgs/rocket2.png", "imgs/rocket3.png", "imgs/rocket4.png", "imgs/rocket5.png")
-  gameoverImg = loadImage("imgs/gameover.png")
+  bikeImg = loadImage("bike1.png")
+  bgImg = loadImage("bg.jpg")
+  stone = loadImage("stone.png")
+  box = loadImage("box.png")
+  laser = loadAnimation("laser1.png", "laser2.png", "laser3.png", "laser4.png", "laser5.png", "laser6.png")
+  rocketanimation = loadAnimation("rocket1.png", "rocket2.png", "rocket3.png", "rocket4.png", "rocket5.png")
+  gameoverImg = loadImage("gameover.png")
 
 }
 function setup() {
